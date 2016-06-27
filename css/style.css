@@ -1,0 +1,199 @@
+.introduction {
+	border-bottom: 1px solid gray;
+	padding-bottom: 20px;
+	text-align: center;
+	color: #7e7e7e;
+	font-size: 26px;
+    font-weight: bold;
+}
+.xemdiem {
+	margin: 100px 0 150px;
+}
+.title-right{
+	margin-bottom: 0px;
+}
+.container{
+	background-color: #fff;
+}
+body{
+	font-family: 'Roboto', 'Segoe UI';
+	font-weight: 400;
+	background-image: url('../images/background.jpg');
+}
+#header{
+	/*
+	background-color: #2489ce;
+	padding: 30px;	
+	*/
+}
+#search{
+	margin-top: 20px;
+}
+.searchbox, .searchbutton{
+	float:left;	
+}
+.searchbutton .btn-warning{
+	width: 100%;
+}
+.searchbutton .glyphicon-search{
+	width: 10%;
+}
+.searchbox{
+	width: 65%;
+}
+.menu{
+	background: #666;
+}
+.menu ul li:hover{
+	background: #2489CE;
+	transition: all 1s;
+}
+.menu ul li:hover .menu  ul li a{
+	border-bottom: 2px solid yellow;
+	text-decoration: underline;
+}
+.menu  ul{
+	list-style-type: none;
+	position: relative;
+	margin-bottom: 0;
+	display: block;
+}
+.menu ul li{
+	float: left;
+	height: 40px;
+	border-right: 2px solid #fff;
+}
+.menu ul li a{
+	padding: 20px 40px 10px;
+	vertical-align: middle;
+}
+.menuul li a{
+	padding: 10px 50px ;
+}
+.menu ul li:last-child{
+	border-right: 0px;
+}
+
+#submenu{
+	z-index: 9999;
+	padding: 0;
+	border: 2px solid #fff;
+	position: absolute;
+	background: #666;
+	display: none;
+	margin: 12px 0 0;
+}
+#submenu li:last-child{
+	border-right: 2px solid #fff;
+}
+#submenu li{
+	float: none;
+}
+.menu  a{
+	color: #fff;
+	text-decoration: none;
+}
+.menu ul li:hover .submenu li{
+	display: block;
+	transition:all 1s;
+}
+.submenu li{
+	list-style-type:none;
+	float: none;
+}
+.intro h4 a{
+	color: #2489ce;
+	font-weight: bold;
+}
+.detail{
+	border-top: 2px solid #666;
+	border-bottom: 2px solid #666;
+	
+	padding: 10px;
+}
+.detail .col-lg-6{
+	padding: 10px;
+}
+#footer{
+	padding: 30px 0;
+}
+.right{
+	margin: 30px 0 0;
+	border: 3px solid #666;
+}
+.title-right{
+	padding: 10px;
+	background: #666;
+	color: #fff;
+	margin-top: 0px;
+}
+.content-right ul{
+	list-style-type: none;
+}
+.content-right ul li a{
+	color: #666;
+	font-size: 15px;
+	text-decoration: none;
+}
+.gotop{
+	position: fixed;
+	z-index: 999;
+	bottom: 50px;
+	left: 94%;
+}
+.social{
+	padding: 5px;
+}
+#gopy .form-group .form-control{
+	margin: 10px 0;
+}
+.logo img{
+	width: 120px;
+}
+.logo h5{
+	font-size:20px;
+	color: #fff;
+	float: right;
+}
+.social-bottom {
+	padding: 2% 0 0 9%;
+}
+.copyright{
+	text-align: justify;
+}
+.copyright a{
+	color: blue;
+}
+.main-title, .sub-title {
+	text-align: center;
+	text-transform: uppercase;
+	color: #7e7e7e;
+	
+}
+.main-title{
+	padding-top: 25px;
+	font-size: 26px;
+	font-weight: bold;
+}
+.sub-title {
+	font-size: 16px;
+}
+.infor-author table{
+	width: 100%;
+}
+.infor-author table tr{
+	line-height: 30px;
+}
+.infor-author table td:first-child{
+	width:18%
+}
+.detail-author{
+	font-weight: bold;
+}
+.infor-images img{
+	width: 100%;
+	
+}
+.article {
+	text-align: justify;
+}
